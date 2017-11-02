@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="16" tilewidth="40" tileheight="40">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/001-1.png"/>
+  <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Tulimshar"/>
+ </properties>
+ <tileset firstgid="1" name="spawn" tilewidth="40" tileheight="40">
+  <image source="graphics/tiles/base/spawn.png" width="240" height="40"/>
+ </tileset>
+ <tileset firstgid="7" name="collision" tilewidth="40" tileheight="40">
+  <image source="graphics/tiles/base/collision.png" width="80" height="40"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="9" name="lpc-hanging-signs_0" tilewidth="30" tileheight="30">
+  <image source="graphics/tiles/base/lpc-hanging-signs_0.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="tiles" tilewidth="80" tileheight="80">
+  <image source="graphics/tiles/base/tiles.png" width="560" height="640"/>
+ </tileset>
+ <tileset firstgid="81" name="tiles" tilewidth="40" tileheight="40">
+  <image source="graphics/tiles/base/tiles.png" width="560" height="640"/>
+ </tileset>
+ <layer name="Ground" width="36" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzNVdsJgDAMzK9b+O+fYyi4SSewC9QFdFwpelBC+jDNhwehIMnlcqbqiMj9KHbqhzPgGOjRYsEFjs2AB/5MnTwptLq4P7OSp6VPjKWSp92fdIY1k+ML9Uvm1OxP7W7w+Mot1RwsB4B+KQbGodEG/vBqwHkxPVK0oqSHP4M/fDZrSF4hPMuz+P60zF6Dp/L9wrtr7d2zy2mN5E/UcdKzR8Gwt7Qbaa3kD7Rgb0+SfdKgptviX2qN8WfnDY9ISoQ=
+  </data>
+ </layer>
+ <layer name="Fringe" width="36" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjCQgOdAOGAWjYBSMgkEAAIcsABo=
+  </data>
+ </layer>
+ <layer name="Over" width="36" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAfBkJAAAB
+  </data>
+ </layer>
+ <layer name="Collision" width="36" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztk8EKACAIQz36/1/csYjKpRt0KJAiYntqupn5Y1FdPuwVPRVPVpfNE+lGfgweREP9f3w672qR5btlUeWK5LaqBeKbYUP0q3lHzKu36oX2VDXvu7tI48RzMzfMniL6LG9kdph+GR7E+0ePBn0xB9k=
+  </data>
+ </layer>
+ <layer name="Spawn" width="36" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxEwQ2nWAXUFbsBGoX4mLGIsFJo52AEjHrnBGs+UAnrH6XANR3IAM2ElwwZQw6/YzMAmBiu7RtPa0AcABA8ANw==
+  </data>
+ </layer>
+</map>

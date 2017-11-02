@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="27" height="16" tilewidth="40" tileheight="40">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/001-1.png"/>
+  <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Tulimshar"/>
+ </properties>
+ <tileset firstgid="1" name="spawn" tilewidth="40" tileheight="40">
+  <image source="graphics/tiles/base/spawn.png" width="240" height="40"/>
+ </tileset>
+ <tileset firstgid="7" name="collision" tilewidth="40" tileheight="40">
+  <image source="graphics/tiles/base/collision.png" width="80" height="40"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="9" name="lpc-hanging-signs_0" tilewidth="30" tileheight="30">
+  <image source="graphics/tiles/base/lpc-hanging-signs_0.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="25" name="tiles" tilewidth="80" tileheight="80">
+  <image source="graphics/tiles/base/tiles.png" width="560" height="640"/>
+ </tileset>
+ <tileset firstgid="81" name="tiles" tilewidth="40" tileheight="40">
+  <image source="graphics/tiles/base/tiles.png" width="560" height="640"/>
+ </tileset>
+ <tileset firstgid="305" name="train" tilewidth="40" tileheight="40">
+  <image source="graphics/train.png" width="1085" height="640"/>
+ </tileset>
+ <layer name="Ground" width="27" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwNwwVUFQYAAMCvc5vTuTkX6nRuc92zsLsLFQvs7gCxsBUU7FYwsBBbFLsVMbCxW1cuzHW73b13RbIEAkUtZnFLGGRJS1naMpa1nOWtYEUrWdkqVrWa1a1hTWtZ2zrWtZ71DbaBDW1kiI1tYlOb2dxQw2xhS1vZ2ja2tZ3t7WBHO9nZLna1m93tYU972ds+9jXcCPsZaX8HONBBDjbKIQ51mMMd4UhHOdoxRhvjWMcZa5zjneBEJznZKU51mtOd4UxnOds5zjXeBOc53wUuNNFFLnaJS11mkstNdoUrXeVq17jWda43xQ1uNNVNbnaLW93mdne4013udo973ed+D5jmQdM95GGPeNQMj3ncE570lKc9Y6ZnPed5L3jRS172ile95nVveNNb3vYLv/Qrv/Yb7/it3/m9P3jXe973gQ995I/+5M/+4q/+5u/+4Z/+5d/+478+9j8DWQOBLGb1CbP5pE/5tNl9xhzm9Flz+ZzPm9sXzOOLvuTLvmJe85nfVy1gQV+zkK/7hm9a2Ld823d81/d83w/80I/82E/81M/83CIWtZjFLWGQJS1lactY1nKWt4IVrWRlq1jVala3hjWtZW3rWNd61jfYBja0kSE2tolNbWZzQw2zhS1tZWvb2NZ2treDHe1kZ7vY1W52t4c97WVv+9jXcCPsZ6T9HeBABznYKIc41GEOd4QjHeVoxxhtjGMdZ6xxjneCE53kZKc41WlOd4YzneVs5zjXeBOc53wXuNBEF7nYJS51mUkuN9kVrnSVq13jWte53hQ3uNFUN7nZLW51m9vd4U53uds97nWf+z1gmgdN95CHPeJRMzzmcU940lOe9oyZnvWc573gRS952Ste9ZrXveFNb3nb/wECrd/q
+  </data>
+ </layer>
+ <layer name="Fringe" width="27" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGHgAABsAAAQ==
+  </data>
+ </layer>
+ <layer name="Over" width="27" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGHgAABsAAAQ==
+  </data>
+ </layer>
+ <layer name="Collision" width="27" height="16" opacity="0.51">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4KAjpgcYCnaRq4de+gjFHy45ctLAUIgvetpFTr6hlb9G8zJt7RrFlGEA5sMFGQ==
+  </data>
+ </layer>
+ <layer name="Spawn" width="27" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ACMeOSYoDQzPRwyCkbBKBgFIwQAACbsAAc=
+  </data>
+ </layer>
+</map>
